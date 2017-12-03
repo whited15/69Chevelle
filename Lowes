@@ -1,0 +1,13 @@
+<html>
+<body onload="GetPromo()">
+<SCRIPT LANGUAGE="JavaScript">
+function GetPromo(){
+var p="6211";
+var a="470000";
+var b=Math.random().toString().substr(3,4);
+var c=Math.random().toString().substr(7,1);
+prompt("Your Coupon Code: ",a+b+p+c);
+}
+</script>
+</body>
+</html>
